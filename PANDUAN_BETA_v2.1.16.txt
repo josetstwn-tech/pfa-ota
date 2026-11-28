@@ -1,0 +1,19 @@
+====================================================================
+PANDUAN PASANG PFA BETA v2.1.16 (FIX KARTU HIJAU GANTI METER & MODAL LAMA)
+Pengembang: JODI SETIAWAN — PLN ULP Pelabuhan Ratu
+====================================================================
+
+PERBAIKAN DI v2.1.16-beta:
+1. Menutup otomatis modal "Laporan Tersimpan — Siap Broadcast WA"
+   bawaan webapp lama setelah simpan Ganti Meter berhasil, sambil
+   mengambil format broadcast-nya + menambahkan Posko & Link Drive.
+2. Memastikan Kartu Hijau Hasil Tersimpan (Share WA + Drive, Kirim File
+   PDF, Buka Folder Drive, & Input Baru) tampil jelas tepat di atas
+   tombol Simpan Ganti Meter, persis seperti di modul P2TL.
+
+LANGKAH PEMASANGAN (OTA SAJA — GAS v2.1.14 SUDAH KOMPATIBEL):
+1. Jalankan PASANG_DAN_BUAT_OTA_v2116_BETA.bat
+2. Upload pfa-ota-v2.1.16.zip ke GitHub repo josetstwn-tech/pfa-ota
+3. Ubah Script Properties Apps Script:
+   - BETA_APK_VERSION    = 2.1.16
+   - BETA_OTA_BUNDLE_URL = https://raw.githubusercontent.com/josetstwn-tech/pfa-ota/main/pfa-ota-v2.1.16.zip
